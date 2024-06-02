@@ -158,8 +158,8 @@ function App() {
                   <Card.Title>{book.title}</Card.Title>
                   <Card.Text>by {book.author}</Card.Text>
                   <Card.Text>{book.price}</Card.Text>
-                  <Button variant="primary" className="me-2">Add to Cart</Button>
-                  <Button variant="secondary">View Details</Button>
+                  <Button variant="primary" className="me-2">View Details</Button>
+                  <Button variant="secondary">Add to Cart</Button>
                 </Card.Body>
               </Card>
             </Col>
